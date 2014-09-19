@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>Shawn Mclean</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/shawnmclean/EFeature</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<summary>Feature Toggle Library that fits well into multi-stage deployment pipelines.</summary>
+    <description>$description$</description>
+    <copyright>Copyright 2014</copyright>
+    <tags>configuration feature-wall feature-configuration continuous-integration continuous-delivery mvt multivariant enabled-for-percentage feature feature toggle</tags>
+	<releaseNotes>
+		No feature yet.
+	</releaseNotes>
+  </metadata>
+</package>

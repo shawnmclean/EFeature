@@ -17,11 +17,7 @@ before_build: nuget restore
 
 build:
   project: EFeature.sln
-
-after_test:
-  - ps: .\deployment\package.ps1
+  publish_nuget: true  
 
 artifacts:
-  - path: src\EFeature\bin\Release\EFeature.dll
-    name: EFeature.dll
-  - path: '**\EFeature*.nupkg'
+  - path: 'out\*.nupkg'
